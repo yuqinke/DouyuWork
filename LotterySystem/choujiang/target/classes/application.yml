@@ -1,0 +1,27 @@
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  application:
+    name: choujiang  #应用服务名称
+
+#配置数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver  #注册驱动
+    url: jdbc:mysql://localhost:3306/choujiang?characterEncoding=UTF-8
+    username: root
+    password: 123
+
+server:
+  servlet:
+    context-path: /choujiang  #设置项目名称
+    jsp:
+      init-parameters:
+        development: true    #开启jsp的热部署
+  port: 8080 #默认端口8080，修改端口号可启动多个实例
+
+mybatis:
+  mapper-locations: classpath:com/douyu/choujiang/mapper/*.xml   #mapper配置文件的位置
+  type-aliases-package: com.douyu.choujiang.entity    #为了使mapper中可以写别名

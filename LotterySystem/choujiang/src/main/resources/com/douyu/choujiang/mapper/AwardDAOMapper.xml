@@ -1,0 +1,14 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.douyu.choujiang.dao.AwardDAO">
+
+    <!--系统生成获奖ID-->
+    <insert id="systemDraw" >
+        insert into t_award(awardId) values (#{awardId})
+    </insert>
+
+    <!--用户抽奖-->
+    <select id="drawId" resultType="Award">
+        select id,awardId from t_award where awardId=#{drawId}
+    </select>
+
+</mapper>
