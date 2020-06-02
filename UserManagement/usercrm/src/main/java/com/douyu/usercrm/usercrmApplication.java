@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.douyu.usercrm.dao")
+//∆Ù∂Ø¿‡
 public class usercrmApplication {
 
     public static void main(String[] args) {
