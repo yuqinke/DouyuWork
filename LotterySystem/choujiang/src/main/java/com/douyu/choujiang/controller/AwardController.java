@@ -1,6 +1,5 @@
 package com.douyu.choujiang.controller;
 
-import com.douyu.choujiang.entity.Award;
 import com.douyu.choujiang.service.AwardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,21 +13,27 @@ import java.util.Set;
 
 @Controller
 @RequestMapping("draw")
+/**
+ * 先调用systemDraw方法生成系统获奖码
+ * 再调用用户抽奖方法drawId，看是否中奖
+ */
 public class AwardController {
 
     @Autowired
     public AwardService awardService;
 
+    //采用内存set存储获奖id,用户抽奖走内存set而不走数据库查询
+    Set<Integer> set = new HashSet<>();
+
     @GetMapping("drawId")
     @ResponseBody
     //用户抽奖
-    public String drawId (){
+    public  String drawId (){
         Random r = new Random();
-        int drawId = r.nextInt(1000)+1;
+        int drawId = r.nextInt(100)+1;//生成登录用户抽奖id
         System.out.println(drawId);
-        Award award = awardService.drawId(drawId);
-       // System.out.println(award.toString());空对象不能tostring，否则报错
-        if(award!=null){
+        if(set.contains(drawId)){
+            set.remove(drawId);//删除已经中奖id
             return "恭喜您中奖了";
         }else {
             return "本次您没有中奖";
@@ -38,13 +43,13 @@ public class AwardController {
     @ResponseBody
     @RequestMapping("systemDraw")
     // 系统生成获奖id
-    public String  systemDraw(){
+    public  String  systemDraw(){
         Random r = new Random();
-        Set<Integer> set = new HashSet<>();
         while (set.size()<10){
-            int awardId = r.nextInt(1000)+1;
+            int awardId = r.nextInt(100)+1;
             set.add(awardId);
         }
+        System.out.println();
         for(int awardId : set){
             awardService.systemDraw(awardId);
         }
