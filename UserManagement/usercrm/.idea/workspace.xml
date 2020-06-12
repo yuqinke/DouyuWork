@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="987b0945-5ad7-4574-967d-b998c5d5a605" name="Default Changelist" comment="" />
+    <list default="true" id="987b0945-5ad7-4574-967d-b998c5d5a605" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LotterySystem/choujiang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LotterySystem/choujiang/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/douyu/usercrm/usercrmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/douyu/usercrm/usercrmApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/douyu/usercrm/usercrmApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/douyu/usercrm/usercrmApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/douyu/usercrm/utils/ValidateImageCodeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/douyu/usercrm/utils/ValidateImageCodeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/douyu/usercrm/TestUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/douyu/usercrm/TestUserDAO.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/management/target/" />
@@ -228,9 +237,38 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="357344802">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="19" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -240,6 +278,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -285,7 +326,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/web/updateEmp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/web/addEmp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/web/emplist.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/douyu/usercrm/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/web/regist.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/web/reset.jsp" />
@@ -295,6 +335,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/douyu/usercrm/TestUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/douyu/usercrm/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -350,6 +391,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <flattenPackages Scope="false" />
@@ -357,6 +399,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yuangong" type="58d84e3e:PackageViewProjectNode" />
+              <item name="yuangong" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="yuangong" type="58d84e3e:PackageViewProjectNode" />
+              <item name="yuangong" type="616d4139:PackageViewModuleNode" />
+              <item name="com.sx.yuangong" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="yuangong" type="58d84e3e:PackageViewProjectNode" />
+              <item name="yuangong" type="616d4139:PackageViewModuleNode" />
+              <item name="com.sx.yuangong" type="1f31426a:PackageElementNode" />
+              <item name="utils" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -445,28 +509,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yuangong" type="58d84e3e:PackageViewProjectNode" />
-              <item name="yuangong" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="yuangong" type="58d84e3e:PackageViewProjectNode" />
-              <item name="yuangong" type="616d4139:PackageViewModuleNode" />
-              <item name="com.sx.yuangong" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="yuangong" type="58d84e3e:PackageViewProjectNode" />
-              <item name="yuangong" type="616d4139:PackageViewModuleNode" />
-              <item name="com.sx.yuangong" type="1f31426a:PackageElementNode" />
-              <item name="utils" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -607,25 +650,7 @@
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="douyu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="usercrm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="usercrm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="usercrm" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="douyu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="usercrm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="usercrm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="usercrm" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="serviceImpl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="usercrm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -671,7 +696,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -682,9 +706,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590983182804" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591952211348" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -810,8 +837,8 @@
       <list>
         <item itemvalue="JUnit.TestUserDAO.testlogin" />
         <item itemvalue="Spring Boot.usercrmApplication" />
-        <item itemvalue="JUnit.TestUserDAO.testreset" />
         <item itemvalue="JUnit.TestUserDAO.testsave" />
+        <item itemvalue="JUnit.TestUserDAO.testreset" />
         <item itemvalue="Application.ValidateImageCodeUtils" />
       </list>
     </recent_temporary>
@@ -847,48 +874,49 @@
       <workItem from="1590947731794" duration="592000" />
       <workItem from="1590949632128" duration="1530000" />
       <workItem from="1590952478984" duration="4877000" />
+      <workItem from="1591949763703" duration="2447000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUserDAO_testsave - 2020.05.28 at 15h 27m 22s.xml">
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 28m 20s.xml">
+      <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 29m 45s.xml">
+      <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserDAO_testsave - 2020.06.12 at 16h 30m 10s.xml">
       <configuration name="TestUserDAO.testsave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUserDAO_testlogin - 2020.05.28 at 15h 35m 31s.xml">
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 32m 21s.xml">
       <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUserDAO_testlogin - 2020.05.28 at 15h 36m 31s.xml">
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 32m 45s.xml">
       <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUserDAO_testlogin - 2020.05.28 at 16h 15m 37s.xml">
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 37m 52s.xml">
       <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUserDAO_testreset - 2020.05.28 at 17h 06m 33s.xml">
-      <configuration name="TestUserDAO.testreset" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUserDAO_testreset - 2020.05.28 at 17h 07m 13s.xml">
-      <configuration name="TestUserDAO.testreset" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUserDAO_testreset - 2020.05.28 at 20h 57m 05s.xml">
-      <configuration name="TestUserDAO.testreset" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUserDAO_testlogin - 2020.06.01 at 01h 33m 23s.xml">
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 43m 39s.xml">
       <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUserDAO_testlogin - 2020.06.01 at 01h 36m 11s.xml">
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 46m 15s.xml">
       <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestUserDAO_testlogin - 2020.06.01 at 11h 46m 04s.xml">
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 48m 57s.xml">
+      <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserDAO_testlogin - 2020.06.12 at 16h 56m 43s.xml">
       <configuration name="TestUserDAO.testlogin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117004000" />
+    <option name="totallyTimeSpent" value="119451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -899,7 +927,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32786885" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.37213114" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" weight="0.3672131" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" weight="0.3136289" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -909,8 +937,8 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.5491803" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49924356" weight="0.40163934" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49924356" weight="0.40065682" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32922912" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -1071,13 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/controller/EmpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web/updateEmp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1156,13 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/serviceImpl/EmpServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/serviceImpl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-81">
@@ -1177,16 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/usercrmApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/entity/Emp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1194,24 +1198,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1654">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/douyu/usercrm/TestUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1229,5 +1219,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/controller/EmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/serviceImpl/EmpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/usercrmApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/douyu/usercrm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/douyu/usercrm/TestUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>usercrm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
